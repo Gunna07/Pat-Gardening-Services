@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pat Gardening &amp; Services | Gardening, Landscaping &amp; Tree Care</title>
+    <meta name="description"
+        content="Verdant & Vine — premium gardening, landscaping, lawn care and tree cutting services. Licensed, insured, and eco-friendly.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ============ FLOATING GET QUOTE BUTTON ============ -->
+    <a style="background-color: RGB(37, 211, 102);" href="#contact" class="floating-quote" aria-label="Get a free quote">
+      <i class="fa-brands fa-whatsapp" style="color: white;"></i>
+        <span>Whatsapp</span>
+    </a>
+
+    <!-- ============ HEADER / NAVIGATION ============ -->
+    <header class="site-header">
+        <div class="nav-wrap container">
+            <a href="#home" class="logo">
+                <span class="logo-mark"><i class="fa-solid fa-seedling"></i></span>
+            <!-- <span class="logo-text">Veridant<em>&amp;</em>Vine</span>
+                 -->
+            <span class="logo-text">PGS</span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+            <label for="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="tel:+353858122367" class="nav-phone"><i class="fa-solid fa-phone"></i> +353 (85) 812 2367</a>
+                <a href="#contact" class="btn btn-primary btn-small">Get Free Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ============ HERO CAROUSEL ============ -->
+        <section id="home" class="hero">
+            <div class="hero-slides">
+               
+
+                <div class="hero-slide"
+                    style="--bg-img:url('Grow-garden.jpg')">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content container">
+                        <h2>Pat Gardening Services</h2>
+                        <span class="eyebrow"><i class="fa-solid fa-leaf"></i> Luxury Garden Design</span>
+                        <h1>Grow a Garden<br>Worth Coming Home To</h1>
+                        <p>Bespoke landscape design and planting, crafted by certified horticulturists who treat every
+                            yard like a living masterpiece.</p>
+                        <div class="hero-cta">
+                            <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                            <a href="#services" class="btn btn-outline-light">View Our Services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-slide"
+                    style="--bg-img:url('https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1600&q=80')">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content container">
+                        <h2>Pat Gardening Services</h2>
+                        <span class="eyebrow"><i class="fa-solid fa-trowel"></i> Professional Landscaping</span>
+                        <h1>Landscapes Designed<br>Around How You Live</h1>
+                        <p>From patios to pathways, our design-build team turns overgrown lots into outdoor rooms you'll
+                            actually use.</p>
+                        <div class="hero-cta">
+                            <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                            <a href="#services" class="btn btn-outline-light">View Our Services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-slide"
+                    style="--bg-img:url('green-lawn.jpg')">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content container">
+                        <h2>Pat Gardening Services</h2>
+                        <span class="eyebrow"><i class="fa-solid fa-water"></i> Lawn Maintenance</span>
+                        <h1>Thick &amp; Breauiful Green Lawns.</h1>
+                        <p>Mowing, feeding, and seasonal care programs that keep your turf healthy in every climate, all
+                            year long.</p>
+                        <div class="hero-cta">
+                            <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                            <a href="#services" class="btn btn-outline-light">View Our Services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-slide"
+                    style="--bg-img:url('tree-removal.jpg')">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content container">
+                        <h2>Pat Gardening Services</h2>
+                        <span class="eyebrow"><i class="fa-solid fa-tree"></i> Tree Cutting Service</span>
+                        <h1>Safe, Certified<br>Tree Care &amp; Removal</h1>
+                        <p>Arborist-led cutting, trimming, and removal, handled with heavy equipment and zero risk to
+                            your property.</p>
+                        <div class="hero-cta">
+                            <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                            <a href="#services" class="btn btn-outline-light">View Our Services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-slide"
+                    style="--bg-img:url('backyard.jpg')">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content container">
+                        <h2>Pat Gardening Services</h2>
+                        <span class="eyebrow"><i class="fa-solid fa-house-chimney"></i> Backyard Transformation</span>
+                        <h1>Your Backyard,<br>Completely Reimagined</h1>
+                        <p>See how we turn tired, neglected yards into the favorite room in the house — no walls
+                            required.</p>
+                        <div class="hero-cta">
+                            <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+                            <a href="#services" class="btn btn-outline-light">View Our Services</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="hero-arrow hero-arrow-left" aria-hidden="true"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="hero-arrow hero-arrow-right" aria-hidden="true"><i class="fa-solid fa-chevron-right"></i></div>
+
+            <div class="hero-indicators" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+
+            <a href="#highlights" class="scroll-cue" aria-label="Scroll down">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <div class="wave-divider"><svg viewBox="0 0 1440 90" preserveAspectRatio="none">
+                <path d="M0,32 C280,90 480,0 720,20 C960,40 1180,90 1440,30 L1440,90 L0,90 Z"></path>
+            </svg></div>
+
+        <!-- ============ QUICK SERVICE HIGHLIGHTS ============ -->
+        <section id="highlights" class="section highlights">
+            <div class="container">
+                <div class="section-head center">
+                    <span class="eyebrow eyebrow-dark"><i class="fa-solid fa-leaf"></i> What We Do</span>
+                    <h2>Four Ways We Care For Your Outdoors</h2>
+                </div>
+                <div class="highlight-grid">
+
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fa-solid fa-drafting-compass"></i></div>
+                        <h3>Landscaping</h3>
+                        <p>Full design-build services, from concept sketches to finished stonework and planting.</p>
+                        <a href="#services" class="link-arrow">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fa-solid fa-seedling"></i></div>
+                        <h3>Gardening</h3>
+                        <p>Planting, pruning, and seasonal care that keeps flower beds thriving year-round.</p>
+                        <a href="#services" class="link-arrow">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fa-solid fa-tree"></i></div>
+                        <h3>Tree Cutting</h3>
+                        <p>Certified arborists handle trimming, removal, and stump grinding with total precision.</p>
+                        <a href="#services" class="link-arrow">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fa-solid fa-droplet"></i></div>
+                        <h3>Lawn Maintenance</h3>
+                        <p>Mowing, feeding, and irrigation programs tailored to your grass type and climate.</p>
+                        <a href="#services" class="link-arrow">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ ABOUT ============ -->
+        <section id="about" class="section about">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <img src="GardenFinal.jpg"
+                        alt="PGS landscaping crew tending a client garden">
+                    <div class="about-badge">
+                        <strong>8+</strong>
+                        <span>Years of Experience</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="eyebrow eyebrow-dark"><i class="fa-solid fa-leaf"></i> About PGS</span>
+                    <h2>Rooted in Craft. Grown Through Trust.</h2>
+                    <p>For over eight years, Pat Gardening Services has helped homeowners and businesses fall back in love
+                        with their outdoor spaces. Every crew member is certified, background-checked, and trained to
+                        treat your property like their own.</p>
+
+                    <ul class="about-points">
+                        <li><i class="fa-solid fa-circle-check"></i> 8+ years of hands-on experience</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Certified, insured horticulture &amp; arboriculture professionals</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Eco-friendly tools, products &amp; practices</li>
+                        <li><i class="fa-solid fa-circle-check"></i> 100% customer satisfaction guarantee</li>
+                    </ul>
+
+                    <a href="#services" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="leaf-strip" aria-hidden="true"></div>
+
+        <!-- ============ SERVICES ============ -->
+        <section id="services" class="section services">
+            <div class="container">
+                <div class="section-head center">
+                    <span class="eyebrow eyebrow-dark"><i class="fa-solid fa-leaf"></i> Our Services</span>
+                    <h2>Everything Your Property Needs to Thrive</h2>
+                    <p class="section-sub">Twelve specialized services, one dependable crew.</p>
+                </div>
+
+                <div class="service-grid">
+
+                    <article class="service-card">
+                        <div class="service-img"><img
+                                src="landscape.jpg"
+                                alt="Landscaping design plan being installed"></div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-drafting-compass"></i></div>
+                            <h3>Landscaping Design</h3>
+                            <p>Custom outdoor layouts blending hardscape, softscape, and lighting.</p>
+                            <a href="#contact" class="link-arrow">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-img"><img
+                                src="garden-maintain.jpg"
+                                alt="Gardener maintaining a flower garden"></div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                            <h3>Garden Maintenance</h3>
+                            <p>Weeding, feeding, and pruning to keep every bed picture-perfect.</p>
+                            <a href="#contact" class="link-arrow">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-img"><img
+                                src="lawn-mowing.jpg"
+                                alt="Lawn being mowed in neat stripes"></div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+                            <h3>Lawn Mowing</h3>
+                            <p>Precision mowing and edging on a schedule that fits your grass.</p>
+                            <a href="#contact" class="link-arrow">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-img"><img
+                                src="tree-cutting.jpg"
+                                alt="Arborist cutting a tree branch"></div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-tree"></i></div>
+                            <h3>Tree Cutting</h3>
+                            <p>Controlled trimming and cutting to keep trees healthy and safe.</p>
+                            <a href="#contact" class="link-arrow">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-img"><img
+                                src="photo-collage.jpg"
+                                alt="Large tree removal in progress"></div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-truck-pickup"></i></div>
+                            <h3>Tree Removal</h3>
+                            <p>Full-scale removal for hazardous or unwanted trees, done safely.</p>
+                            <a href="#contact" class="link-arrow">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-img"><img
+                                src="hedge-trimming.jpg"
+                                alt="Neatly trimmed hedge rows"></div>
+                        <div class="service-body">
+                            <div class="service-icon"><i class="fa-solid fa-spa"></i></div>
+                            <h3>Hedge Trimming</h3>
+                            <p>Crisp, clean lines for hedges, topiary, and privacy screens.</p>
+                            <a href="#contact" class="link-arrow">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                  
+</body>
+
+</html>
