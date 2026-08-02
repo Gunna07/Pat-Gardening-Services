@@ -1637,6 +1637,7 @@ h4 {
     .main-nav a {
         color: var(--white);
         font-size: 1.1rem;
+        text-shadow: 2px 3px 6px greenyellow;
     }
 
     .nav-toggle {
